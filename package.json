@@ -1,0 +1,18 @@
+{
+    "name": "example-integration-test",
+    "description": "example of integration testing against an API",
+    "version": "0.0.1",
+    "private": true,
+
+    "dependencies": {
+        "aws-sdk": "^2.799.0"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3",
+        "supertest": "^6.3.3"
+    },
+    "scripts": {
+        "test:unit": "jest --testPathPattern=__tests__/unit",
+        "test:integration": "jest --testPathPattern=__tests__/integration"
+    }
+}
